@@ -1,5 +1,11 @@
 # Stable Audio 3
 
+> **PRISM audio research extension.** This checkout adds learned prompt decomposition
+> and compositional rectified-flow training on AudioTime with a frozen Stable Audio 3
+> Medium Base backbone. The [PRISM workflow](docs/workflows/prism_audio.md) contains
+> the method, data preparation, training commands, and saved experiment status.
+> The upstream Stable Audio 3 documentation follows below.
+
 **A state-of-the-art open platform for fast, high-quality generated audio and music.**
 
 [Technical Report](https://arxiv.org/abs/2605.17991) · [🤗 Models](https://huggingface.co/collections/stabilityai/stable-audio-3) · [🤗 Extra Models](https://huggingface.co/collections/stabilityai/stable-audio-3-extra) · [Discord](https://discord.gg/7QM7mtY9uH) · [Demo](https://huggingface.co/spaces/stabilityai/stable-audio-3) · [Blog Post](https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models)

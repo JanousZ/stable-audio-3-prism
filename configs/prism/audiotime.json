@@ -1,0 +1,26 @@
+{
+  "model_dir": "/mnt/disk1/models/stable-audio-3-medium-base",
+  "manifest_dir": "data/prism_audiotime",
+  "output_dir": "runs/prism_audiotime_v1",
+  "adapter": {
+    "text_dim": 768,
+    "width": 512,
+    "heads": 8,
+    "layers": 6,
+    "components": 4,
+    "tokens": 64,
+    "temporal": false
+  },
+  "batch_size": 1,
+  "accumulation": 8,
+  "workers": 2,
+  "max_steps": 10000,
+  "learning_rate": 0.00005,
+  "warmup_steps": 500,
+  "precision": "bf16",
+  "gradient_checkpointing": true,
+  "component_chunk_size": 1,
+  "orthogonality_weight": 0.1,
+  "temporal_weight": 0.0,
+  "semantic_weight": 0.0
+}
